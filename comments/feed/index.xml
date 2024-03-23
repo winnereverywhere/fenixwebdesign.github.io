@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for allaboutcleaningkc.com	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
 	<description></description>
 	<lastBuildDate>Wed, 06 Mar 2024 20:43:35 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,4 +20,4 @@
 </channel>
 </rss>
 
-<!-- plugin=object-cache-pro client=phpredis metric#hits=786 metric#misses=19 metric#hit-ratio=97.6 metric#bytes=3958804 metric#prefetches=0 metric#store-reads=208 metric#store-writes=3 metric#store-hits=194 metric#store-misses=16 metric#sql-queries=3 metric#ms-total=107.09 metric#ms-cache=20.94 metric#ms-cache-avg=0.0997 metric#ms-cache-ratio=19.6 -->
+
