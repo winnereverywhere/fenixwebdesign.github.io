@@ -1,0 +1,4 @@
+jQuery($=>{window.tb_position=()=>{const width=$(window).width();const height=$(window).height();const H=height-((792<width)?60:20);const W=(792<width)?772:width-20;const tbWindow=$('#TB_window');if(tbWindow.length){tbWindow.width(W).height(H);tbWindow.css({'margin-left':'-'+parseInt((W / 2),10)+'px','overflow':'hidden',});if(typeof document.body.style.maxWidth!=='undefined'){tbWindow.css({'top':'30px','margin-top':'0'});}
+$('#TB_ajaxContent').width(W-30).height(H-30);}
+$('a.thickbox').each(()=>{let href=$(this).attr('href');if(!href){return;}
+href=href.replace(/&width=\d+/g,'');href=href.replace(/&height=\d+/g,'');$(this).attr('href',`${href}&width=${W}&height=${H}`);});};$(window).on('resize',()=>{tb_position();});});
