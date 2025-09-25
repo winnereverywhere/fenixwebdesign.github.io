@@ -1,1 +1,0 @@
-function bunnycdn_redirect(url){window.location.href=url;}
